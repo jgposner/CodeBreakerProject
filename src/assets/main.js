@@ -12,7 +12,6 @@ function guess() {
     }
     attempt.value ++;
 
-
 }
 
 //implement new functions here
@@ -22,7 +21,7 @@ function getResults(input) {
     if(input.charAt(i) == answer.value.charAt(i)) {
       html += '<span class="glyphicon glyphicon-ok"></span>'
     } else if(answer.value.indexOf(input.charAt(i)) > -1) {
-      
+Is this line going to be there?; Delete this line after check.
     }
   }
 }
